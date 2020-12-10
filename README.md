@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# mychecklist
 
-You can use the [editor on GitHub](https://github.com/bks-lo/mychecklist.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## 1. 严禁使用多个与条件
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+原因：例如3个变量与条件判断 ```if (a == 0 && b == 0 && c == 0)```  其中a有三种取值大于0、小于0、等于0，同理变量b和c也一样。这样3x3x3就会有27中变量组合，**很容易漏掉其中的变量条件组合**。建议罗列清楚所有变量组合条件，拆分这种与条件的写法。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bks-lo/mychecklist.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
